@@ -5,11 +5,11 @@
 - [x] Criar nosso back-end.
 - [ ] Configurar nossa conexão com o Banco de Dados.
 - [ ] Criar nossa tabela no nosso Banco de dados.
-- [ ] Criar o nosso method post delete e outros ... para nosso crud no back-end
+- [ ] Criar o nosso method post delete e outros ... para nosso crud no front-end
 
 ` BUGS `
 
-- [ ] Resolver o problema com nosso define nosso models/database
+- [ ] Resolver o problema com nosso define do nosso models/database
 
 ``` javascript
 	
