@@ -30,3 +30,20 @@
 	Model.init();
 
 ```
+
+## Comando do back-end
+
+* Startando nossa aplicação
+
+``` bash
+
+	node index.js
+```
+
+
+* Startando nossa aplicação com nodemon
+
+``` bash
+	npm start 
+
+```
