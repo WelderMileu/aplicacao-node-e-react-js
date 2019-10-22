@@ -18,5 +18,5 @@ const Model = sequelize.define('model', {
 });
 
 // Executando o nosso model.
-Model.init();
+// Model.init();
 module.exports = Model;

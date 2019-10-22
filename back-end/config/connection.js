@@ -9,12 +9,12 @@ const sequelize = new Sequelize('dados','root','',{
 // Validando conexao com o banco de dados.
 sequelize.authenticate()
 	.then(() => {
-		console.log("conexão efetuda com sucesso")
-	}).catch( err =>{
+		console.log("Conexão efetuda com sucesso!")
+	}).catch( err => {
 		console.log(`Erro ao tentar se connectar ao banco de dados ${err}`)
 	}).done();
 
 // Fechando a nossa conexao.
-sequelize.close();
+// sequelize.close();
 
 module.exports = sequelize;

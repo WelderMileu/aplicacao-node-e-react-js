@@ -3,7 +3,7 @@
 ` Pedencias `
 
 - [x] Criar nosso back-end.
-- [ ] Configurar nossa conexão com o Banco de Dados.
+- [x] Configurar nossa conexão com o Banco de Dados.
 - [ ] Criar nossa tabela no nosso Banco de dados.
 - [ ] Criar o nosso method post delete e outros ... para nosso crud no front-end
 
