@@ -5,7 +5,8 @@
 - [x] Criar nosso back-end.
 - [x] Configurar nossa conexão com o Banco de Dados.
 - [x] Criar nossa tabela no nosso Banco de dados.
-- [ ] Criar o nosso method post delete e outros ... para nosso crud no front-end
+- [ ] Criar o nosso method post delete e outros ... para nosso crud no front-end.
+- [ ] Iserir um registro por vez na nossa tabela.
 
 ` BUGS `
 
