@@ -4,12 +4,12 @@
 
 - [x] Criar nosso back-end.
 - [x] Configurar nossa conexão com o Banco de Dados.
-- [ ] Criar nossa tabela no nosso Banco de dados.
+- [x] Criar nossa tabela no nosso Banco de dados.
 - [ ] Criar o nosso method post delete e outros ... para nosso crud no front-end
 
 ` BUGS `
 
-- [ ] Resolver o problema com nosso define do nosso models/database, esta pedindo para passar um instancia para nosso sequelize.
+- [x] Resolver o problema com nosso define do nosso models/database, esta pedindo para passar um instancia para nosso sequelize.
 
 ``` javascript
 	
@@ -27,7 +27,7 @@
 	})
 
 	// Executando o nosso model.
-	Model.init();
+	Model.sync({ force: true }); // Jeito certo de criar nossa tabela.
 
 ```
 

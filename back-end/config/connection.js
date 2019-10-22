@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 // Conexao com o banco de dados.
 const sequelize = new Sequelize('dados','root','',{
 	host:'localhost',
-	dialect:'sqlite'
+	dialect:'mysql'
 });
 
 // Validando conexao com o banco de dados.

@@ -5,8 +5,8 @@ const Sequelize = require('sequelize');
 */
 const sequelize = require("../config/connection");
 
-// Problema com o nosso define não esta gerando a nossa tabela.
-const Model = sequelize.define('model', {
+// Definido a nossa tabela da aplicação
+const Model = sequelize.define('models', {
 	language:{
 		type: Sequelize.STRING,
 		allowNull: true
@@ -18,5 +18,12 @@ const Model = sequelize.define('model', {
 });
 
 // Executando o nosso model.
-// Model.init();
+Model.sync({ force: true })
+	.then(() => {
+		// Criando um novo registro
+		return Model.create({
+			language: "Javascript",
+			porcent: "100"
+		})
+	})
 module.exports = Model;
