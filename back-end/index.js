@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000
 
 // Mostrando tempo de execução da nossa aplicação.
 app.use(morgan('dev'));
-app.use(cors());
+app.use(cors()); // Usando para fazer a comunicação com nosso front-end.
 
 // Configurando para nossa aplicação receber nossas requisições em formato de json.
 app.use(express.json());

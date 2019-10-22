@@ -32,7 +32,7 @@
 
 ```
 
-* Erro da nossa aplicação
+* Erro da nossa aplicação (Resolvido)
 
 ``` bash
 
